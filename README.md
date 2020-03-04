@@ -100,7 +100,7 @@ Also, using metrics such as the variance inflation factor (VIF) can be used to s
 
 I have also included a Medium article that is written for audiences without a data science background.
 
-(link TBA)
+[Link to Medium](https://medium.com/@kendricng/should-i-buy-a-house-in-san-francisco-54df7a42763e)
 
 # 5. Others
 
