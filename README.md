@@ -2,15 +2,13 @@
 
 # Table of Contents
 
-1. Installation
-2. Repo Motivation
-3. File Descriptions
-4. Summary of Results
-5. Others
+1. [Installation](https://github.com/kendricng/bay-area-houses#1-installation)
+2. [Repo Motivation](https://github.com/kendricng/bay-area-houses#2-repo-motivation)
+3. [File Descriptions](https://github.com/kendricng/bay-area-houses#3-file-descriptions)
+4. [Summary of Results](https://github.com/kendricng/bay-area-houses#4-summary-of-results)
+5. [Others](https://github.com/kendricng/bay-area-houses#5-others)
 
 # 1. Installation
-
-1. Installation - Extra libraries that are not installed with the Anaconda distribution, as well as what what version of python you are using should be noted.
 
 The scripts in the Jupyter notebooks are written in Python 3.7+ using the below libraries:
 
@@ -45,10 +43,10 @@ This repository consists of the following files:
 
 ## Data
 
-1. raw.csv; and
-2. clean.csv.
+1. [Housing Data - Raw](raw.csv); and
+2. [Housing Data - Clean](clean.csv).
 
-I extracted residential housing price data from publicly available real estate information during February 2020 using a third party Chrome extension web scraper. This resulted in the `raw.csv` file.
+I extracted residential housing price data from publicly available real estate information during February 2020 using a third party Chrome extension web scraper.
 
 ## Jupyter Notebooks
 
@@ -91,9 +89,7 @@ Data integrity is a well known issue within the real estate industry, and a cent
 
 ## Room for Improvement
 
-More quantitative approaches to feature engineering would be appreciated, such as Principal Component Analysis (PCA) for dimensionality reduction. 
-
-Also, using metrics such as the variance inflation factor (VIF) can be used to showcase common pitfalls of assuming normality (e.g. collinearity, homoscedasticity).
+Since most of the model's accuracy was provided by `area` and `sqft`, I would dig deeper into how to create more area or district specific features (e.g. transit time, crime rates, industry growth).
 
 ## Non-Technical Summary
 
