@@ -62,9 +62,8 @@ I extracted residential housing price data from publicly available real estate i
 
 Using a Linear Regression model, I have built a basic machine learning model to predict housing prices in the Bay Area mainly by using the following predictive features:
 
-1. area (e.g. San Francisco, South Bay, East Bay);
-2. house type (e.g. Single Family, Condo, Townhouse); and
-3. square footage.
+1. area (e.g. San Francisco, South Bay, East Bay); and
+2. square footage.
 
 This model resulted in an R squared value of 0.60 on the test set.
 
@@ -80,15 +79,15 @@ I improved the score of this model mainly by using the following strategies:
 
 ## Edge Cases
 
-Since the purpose of this repository is to understand the real estate market in the Bay Area for my first home purchase. Hence, a lot of the edge cases related to large houses (e.g. mansions, large acreage lots) have been removed.
+The purpose of this repository is to understand the real estate market in the Bay Area for my first home purchase. Hence, a lot of the edge cases related to large houses (e.g. mansions, large acreage lots) have been removed.
 
 ## Data Integrity Issues
 
-During the data scraping phase of the project, the data was not of the highest quality, with missing values for many of the features. 
+During the data scraping phase of the project i.e. `Preprocessing`, the data was not of the highest quality, with missing values for many of the features. 
 
 Many of the values have been imputed by using the mean or median, and other values have been dropped. Much of the rationale for imputing missing values are largely driven by rules of thumb about houses (e.g. high correlation between `bed` and `bath`). 
 
-Data integrity is a well known issue within the real estate industry, and a central database of real esate data is a highly sought after proprietary asset.
+Data integrity is a well known issue within the real estate industry, and a central database of cleaned real esate data is a highly sought after proprietary asset.
 
 ## Room for Improvement
 
@@ -98,19 +97,13 @@ Also, using metrics such as the variance inflation factor (VIF) can be used to s
 
 ## Non-Technical Summary
 
-I have also included a Medium article that is written for audiences without a data science background.
-
-[Link to Medium](https://medium.com/@kendricng/should-i-buy-a-house-in-san-francisco-54df7a42763e)
+I have also included a [Medium article](https://medium.com/@kendricng/should-i-buy-a-house-in-san-francisco-54df7a42763e) that is written for audiences without a data science background. 
 
 # 5. Others
 
 ## License
 
 [MIT License](LICENSE)
-
-## Author
-
-Kendric Ng
 
 ## Acknowledgements
 
@@ -121,4 +114,4 @@ I would like to acknowledge the following parties who have inspired and motivate
 
 ## Discussion and Feedback
 
-For any questions, comments, and feedback on this repository, both technical and non-technical, feel free to reach out to me at Twitter via my handle [@KendricNg](https://twitter.com/KendricNg).
+For any questions, comments, and feedback on this repository, both technical and non-technical, feel free to reach out to me at Twitter [@KendricNg](https://twitter.com/KendricNg).
